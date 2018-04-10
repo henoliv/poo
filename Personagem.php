@@ -11,7 +11,7 @@ class Personagem
     private $possuiBigode;
 
     # Forçando tipos nos atributos no construtor
-    public function __consruct(
+    public function __construct(
         string $nome,
         string $cor,
         int $quantidadeDeCogumelos,
@@ -25,6 +25,11 @@ class Personagem
         $this->altura = $altura;
         $this->tipoFisico = $tipoFisico;
         $this->possuiBigode = $possuiBigode;
+    }
+
+    public function __destruct()
+    {
+        // funções da destruição do objeto
     }
 
     public function getNome(): string
