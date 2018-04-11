@@ -21,10 +21,13 @@ class Testing
 // Teste de identidade e igualdade
 /*$test = new Testing();
 
-var_dump([$test->testIdentity(), $test->testEquality()]);
-*/
+var_dump([$test->testIdentity(), $test->testEquality()]);*/
 
 // Teste de representação
-$personagem = new \POO\Personagem('Mario', 'vermelho', 1, 1.30, 'gordo', true);
+/*$personagem = new \POO\Personagem('Mario', 'vermelho', 1, 1.30, 'gordo', true);
 
-var_dump($personagem->toString());
+var_dump($personagem->toString());*/
+
+// Teste de atributos e métodos estáticos
+var_dump(Personagem::$quantidadeOlhos);
+var_dump(Personagem::andar());

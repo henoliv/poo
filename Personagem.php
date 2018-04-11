@@ -9,6 +9,7 @@ class Personagem
     private $quantidadeDeCogumelos;
     private $tipoFisico;
     private $possuiBigode;
+    public static $quantidadeOlhos = 2;
 
     # Forçando tipos nos atributos no construtor
     public function __construct(
@@ -110,5 +111,15 @@ class Personagem
     public function toString(): string
     {
         return "Nome do personagem: {$this->nome}";
+    }
+
+    public function falar(): string
+    {
+        return "Olá";
+    }
+
+    public static function andar(): void
+    {
+        // implementação
     }
 }
