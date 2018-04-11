@@ -5,4 +5,4 @@ Fundamentos da orientação a objetos seguindo o livro [Orientação a Objetos](
 
 ## Autor
 
-* **Henrique Rodrigues** - *henrique@hostnet.com.br*
+* **Henrique Rodrigues** - *henoliv@gmail.com*

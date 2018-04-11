@@ -2,6 +2,9 @@
 
 namespace POO;
 
+/**
+ * Eu sei que é impossível, gente...
+ */
 class Quadrilatero
 {
     // área do quadrado
@@ -21,7 +24,7 @@ class Quadrilatero
     {
         return (($baseMaior * $baseMenor) * $altura)/2;
     }
-    
+
     // área do losango
     public function calcularArea(float $diagonalMaior, float $diagonalMenor): float
     {

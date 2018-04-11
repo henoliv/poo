@@ -2,9 +2,6 @@
 
 namespace POO\Hospital;
 
-// remover quando implementar autoload
-include_once('./Pessoa.php');
-
 use POO\Hospital\Pessoa;
 use DateTime;
 

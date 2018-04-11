@@ -122,4 +122,14 @@ class Personagem
     {
         // implementação
     }
+
+    public function equals(Personagem $personagem): bool
+    {
+        return $this == $personagem;
+    }
+
+    public function identical(Personagem $personagem): bool
+    {
+        return $this === $personagem;
+    }
 }

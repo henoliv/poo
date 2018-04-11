@@ -1,0 +1,16 @@
+{
+  "name": "henol/poo",
+  "description": "Fundamentos da orienta\u0000\u0000o a objetos",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Henrique Rodrigues",
+      "email": "henoliv@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "POO\\": "src/"
+    }
+  }
+}
