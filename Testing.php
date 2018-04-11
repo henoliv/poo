@@ -2,6 +2,7 @@
 
 namespace POO;
 
+// remover quando implementar autoload
 include('Personagem.php');
 
 class Testing
