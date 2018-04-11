@@ -17,6 +17,14 @@ class Testing
     }
 }
 
-$test = new Testing();
+
+// Teste de identidade e igualdade
+/*$test = new Testing();
 
 var_dump([$test->testIdentity(), $test->testEquality()]);
+*/
+
+// Teste de representação
+$personagem = new \POO\Personagem('Mario', 'vermelho', 1, 1.30, 'gordo', true);
+
+var_dump($personagem->toString());

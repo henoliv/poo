@@ -106,4 +106,9 @@ class Personagem
     {
         // implementação
     }
+
+    public function toString(): string
+    {
+        return "Nome do personagem: {$this->nome}";
+    }
 }
