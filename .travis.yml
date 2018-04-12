@@ -5,9 +5,10 @@ php:
 
 before_script:
   - composer self-update
-  - composer install
+  - composer install --prefer-source --no-interaction --dev
+  - ls -la
 
-script: phpunit --colors tests
+script: composer test
 
 matrix:
   fast_finish: true
