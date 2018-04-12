@@ -2,7 +2,7 @@
 
 namespace POO\Hospital;
 
-class Pessoa
+abstract class Pessoa
 {
     private $nome;
     private $sexo;
