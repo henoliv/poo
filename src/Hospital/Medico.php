@@ -4,7 +4,7 @@ namespace POO\Hospital;
 
 use POO\Hospital\Funcionario;
 
-class Medico extends Funcionario
+abstract class Medico extends Funcionario
 {
     private $CRM;
 
@@ -18,7 +18,9 @@ class Medico extends Funcionario
         $this->CRM = $CRM;
     }
 
-    public function operar(): void
+    abstract public function operar(): void;
+
+    public function fazerAlgo(): void
     {
         // implementação
     }

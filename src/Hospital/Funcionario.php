@@ -5,7 +5,7 @@ namespace POO\Hospital;
 use POO\Hospital\Pessoa;
 use DateTime;
 
-class Funcionario extends Pessoa
+abstract class Funcionario extends Pessoa
 {
     private $dataAdmissao;
     private $matricula;
