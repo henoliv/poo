@@ -6,7 +6,7 @@ use POO\Hospital\Pessoa;
 use PHPUnit\Framework\TestCase;
 use Error;
 
-class PersonagemTest extends TestCase
+class PessoaTest extends TestCase
 {
     public function testAbstracao(): void
     {
