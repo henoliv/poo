@@ -2,19 +2,14 @@ language: php
 
 php:
   - 7.1
-  - hhvm
 
 before_script:
   - composer self-update
-  - composer install --prefer-source --no-interaction --dev
-
-install: composer install
+  - composer install
 
 script: phpunit --colors tests
 
 matrix:
-  allow_failures:
-    - php: hhvm
   fast_finish: true
 
 notifications:
